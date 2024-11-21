@@ -1,0 +1,6 @@
+.vs
+bin
+obj
+launchSettings.json
+*.user
+/src/nupkg
