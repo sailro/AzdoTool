@@ -1,9 +1,9 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Extensions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Extensions;
+using AzdTool.Actions;
+using AzdTool.Nodes;
 using AZBuild = Microsoft.TeamFoundation.Build.WebApi.Build;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Build(Builds builds, AZBuild build) : UnitVisitorNode<AZBuild>
 {

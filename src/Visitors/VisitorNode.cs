@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using AzdoTool.Nodes;
+using AzdTool.Nodes;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal abstract class VisitorNode : Node
 {

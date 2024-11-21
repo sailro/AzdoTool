@@ -1,10 +1,10 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.VisualStudio.Services.Common;
 using Microsoft.VisualStudio.Services.WebApi;
 using Spectre.Console;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Organization(string orgId, VssCredentials credentials) : VisitorNode
 {

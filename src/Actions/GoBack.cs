@@ -1,5 +1,5 @@
-﻿using AzdoTool.Nodes;
+﻿using AzdTool.Nodes;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class GoBack(INode parent) : BaseGoToNode("[grey]>> Go back[/]", parent);

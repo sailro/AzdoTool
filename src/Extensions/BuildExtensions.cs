@@ -2,7 +2,7 @@
 using Microsoft.TeamFoundation.Build.WebApi;
 using Spectre.Console;
 
-namespace AzdoTool.Extensions;
+namespace AzdTool.Extensions;
 
 internal static class BuildExtensions
 {

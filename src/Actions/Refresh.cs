@@ -1,5 +1,5 @@
-﻿using AzdoTool.Nodes;
+﻿using AzdTool.Nodes;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class Refresh(INode node) : BaseGoToNode("[grey]>> Refresh[/]", node);

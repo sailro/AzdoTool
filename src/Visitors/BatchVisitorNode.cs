@@ -1,7 +1,7 @@
 ﻿using Humanizer;
 using Spectre.Console;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal abstract class BatchVisitorNode<TEntity> : VisitorNode
 {

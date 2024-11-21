@@ -1,7 +1,7 @@
-﻿using AzdoTool.Actions;
+﻿using AzdTool.Actions;
 using Spectre.Console;
 
-namespace AzdoTool.Nodes;
+namespace AzdTool.Nodes;
 
 internal abstract class Node : INode
 {

@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
-using AzdoTool.Visitors;
+using AzdTool.Visitors;
 using Microsoft.TeamFoundation.SourceControl.WebApi;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class AbandonPullRequests(VisitorNode node) : BatchOrUnitAction<GitPullRequest>(node, "pull-request", "abandon")
 {

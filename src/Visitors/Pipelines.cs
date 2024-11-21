@@ -1,9 +1,9 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.Azure.Pipelines.WebApi;
 using AZPipeline = Microsoft.Azure.Pipelines.WebApi.Pipeline;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Pipelines(Project project) : BatchVisitorNode<AZPipeline>
 {

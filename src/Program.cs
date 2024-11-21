@@ -1,4 +1,4 @@
-﻿using AzdoTool;
+﻿using AzdTool;
 using Spectre.Console.Cli;
 
 var app = new CommandApp<BrowseCommand>();

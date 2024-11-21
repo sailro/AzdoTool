@@ -1,10 +1,10 @@
 ﻿using System.Text.RegularExpressions;
-using AzdoTool.Nodes;
-using AzdoTool.Visitors;
+using AzdTool.Nodes;
+using AzdTool.Visitors;
 using Humanizer;
 using Spectre.Console;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal abstract class BatchOrUnitAction<TEntity>(VisitorNode node, string entity, string action) : Node
 {

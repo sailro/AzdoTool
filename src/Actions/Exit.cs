@@ -1,6 +1,6 @@
-﻿using AzdoTool.Nodes;
+﻿using AzdTool.Nodes;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class Exit : Node
 {

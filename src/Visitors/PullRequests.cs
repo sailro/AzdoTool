@@ -1,8 +1,8 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.TeamFoundation.SourceControl.WebApi;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class PullRequests(Repository repository) : BatchVisitorNode<GitPullRequest>
 {

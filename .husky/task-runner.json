@@ -3,7 +3,7 @@
     {
       "name": "dotnet-format-staged-files",
       "command": "dotnet",
-      "args": ["format", "src/AzdoTool.sln", "whitespace", "--verbosity", "quiet", "--include", "${staged}"],
+      "args": ["format", "src/AzdTool.sln", "whitespace", "--verbosity", "quiet", "--include", "${staged}"],
       "include": ["**/*.cs"]
     }
   ]

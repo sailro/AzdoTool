@@ -1,11 +1,11 @@
 ﻿using System.Text.RegularExpressions;
-using AzdoTool.Extensions;
-using AzdoTool.Visitors;
+using AzdTool.Extensions;
+using AzdTool.Visitors;
 using Microsoft.TeamFoundation.Core.WebApi;
 using Microsoft.TeamFoundation.DistributedTask.WebApi;
 using AZBuild = Microsoft.TeamFoundation.Build.WebApi.Build;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class CancelJobs(VisitorNode node) : BatchOrUnitAction<TaskAgentJobRequest>(node, "job", "cancel")
 {

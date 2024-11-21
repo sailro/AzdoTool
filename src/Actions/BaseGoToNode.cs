@@ -1,6 +1,6 @@
-﻿using AzdoTool.Nodes;
+﻿using AzdTool.Nodes;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal abstract class BaseGoToNode(string title, INode node) : Node
 {

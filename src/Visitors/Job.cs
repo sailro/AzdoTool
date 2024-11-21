@@ -1,9 +1,9 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Extensions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Extensions;
+using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.TeamFoundation.DistributedTask.WebApi;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Job(Jobs jobs, TaskAgentJobRequest taskAgentJobRequest) : UnitVisitorNode<TaskAgentJobRequest>
 {

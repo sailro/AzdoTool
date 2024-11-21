@@ -1,9 +1,9 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.TeamFoundation.Build.WebApi;
 using AZBuild = Microsoft.TeamFoundation.Build.WebApi.Build;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Builds(Pipeline pipeline) : BatchVisitorNode<AZBuild>
 {

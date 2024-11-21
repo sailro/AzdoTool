@@ -3,18 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>azdo-tool</ToolCommandName>
+    <ToolCommandName>azd-tool</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Description>azdo-tools helps managing Azure DevOps entities</Description>
+    <Description>azd-tool helps managing Azure DevOps entities</Description>
     <Copyright>Sebastien Lebreton</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>Sebastien Lebreton</Authors>
     <PackageTags>azdo;azure;devops;cli;tool</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/sailro/AzdoTool</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/sailro/AzdTool</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

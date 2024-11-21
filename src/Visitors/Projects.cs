@@ -1,8 +1,8 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.TeamFoundation.Core.WebApi;
 
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class Projects(Organization organization) : BatchVisitorNode<TeamProjectReference>
 {

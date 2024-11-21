@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel;
-using AzdoTool.Visitors;
+using AzdTool.Visitors;
 using Azure.Core;
 using Azure.Identity;
 using Microsoft.VisualStudio.Services.Common;
 using Spectre.Console;
 using Spectre.Console.Cli;
 
-namespace AzdoTool;
+namespace AzdTool;
 
 internal sealed class BrowseCommand : AsyncCommand<BrowseCommand.Settings>
 {

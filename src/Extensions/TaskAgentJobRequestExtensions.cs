@@ -1,7 +1,7 @@
 ﻿using Microsoft.TeamFoundation.DistributedTask.WebApi;
 using Spectre.Console;
 
-namespace AzdoTool.Extensions;
+namespace AzdTool.Extensions;
 
 internal static class TaskAgentJobRequestExtensions
 {

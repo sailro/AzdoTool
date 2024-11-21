@@ -1,4 +1,4 @@
-﻿namespace AzdoTool.Nodes;
+﻿namespace AzdTool.Nodes;
 
 internal interface INode
 {

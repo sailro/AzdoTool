@@ -1,7 +1,7 @@
-﻿using AzdoTool.Actions;
-using AzdoTool.Nodes;
+﻿using AzdTool.Actions;
+using AzdTool.Nodes;
 using Microsoft.TeamFoundation.DistributedTask.WebApi;
-namespace AzdoTool.Visitors;
+namespace AzdTool.Visitors;
 
 internal class AgentPools(Organization organization) : BatchVisitorNode<TaskAgentPool>
 {

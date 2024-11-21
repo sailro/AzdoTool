@@ -1,6 +1,6 @@
-﻿using AzdoTool.Nodes;
+﻿using AzdTool.Nodes;
 
-namespace AzdoTool.Actions;
+namespace AzdTool.Actions;
 
 internal class Confirm(string prompt, Func<Task> action, Node node) : BaseGoToNode(prompt, node)
 {
