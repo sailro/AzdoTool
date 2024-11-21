@@ -20,7 +20,9 @@ For now you can:
 
 It is super simple to add new features.
 
-Use it at your own risk ! 
+**Use it at your own risk !**
+
+![Screenshot](media/screenshot.png)
 
 ## Usage
 ```
